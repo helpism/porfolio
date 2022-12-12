@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Blaka+Ink&family=Combo&family=Reem+Kufi+Fun&display=swap');
+body
+{
+	background-color: #E7E7E7;
+	margin: 0;
+}
+header
+{
+	background-color: #272420;
+	font-family: fantasy;
+	color: whitesmoke;
+	padding: 20px;
+}
+h1
+{
+	text-align: center;
+	margin: 0;
+}
+nav
+{
+	background-color: #748374;
+	text-align: center;
+	border-bottom: 1px solid black;
+}
+nav a
+{
+	text-decoration: none;
+	margin: 10px;
+
+}
+nav a:link
+{
+	color: white;
+}
+nav a:visited
+{
+	color: white;
+}
+nav a:hover
+{
+	text-decoration: overline;
+	font-style: italic;
+	color: white;
+}
+nav a:active
+{
+	color: #000000;
+}
+nav ul 
+{
+	float: center;
+	background-color: #748374;
+	margin-right: 10px;
+	margin-left: 10px;
+	margin-bottom: 0;
+	padding-left: 8px;
+	list-style-type: none;
+}
+nav li 
+{
+	float: center;
+	display: inline-block
+}
+main 
+{
+	background-color: #EBEFEB;
+	color: black;
+	width: 1200px;
+	margin: auto;
+	padding-top: 20px;
+	font-family: combo;
+}
+main i.fa 
+{
+	font-size: 2em;
+	padding-left: 580px;
+}
+#hero
+{
+	border: 2px solid #fff;
+	border-radius: 8px;
+}
+.main-image
+{
+	border: 2px solid #fff;
+	border-radius: 6px;
+}
+.images
+{
+	border: 1px solid #fff;
+	border-radius: 4px;
+}
+main p 
+{
+	margin: 30px;
+}
+.gallery .preview{
+    width:100%
+    height:auto;
+}
+
+.gallery .gallery-thumbnails img {
+    width:100px;
+    height:75px;
+    margin: 3px 10px 10px 0;
+}
+
+.gallery .gallery-thumbnails img:hover {
+    opacity: .8;
+    cursor: pointer;
+}
+
+.gallery .preview img#preview {
+    padding: 1px;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto !important;
+    display: block !important;
+}
+
+footer
+{
+	background-color: #928D83;
+	margin-top: 0;
+	border-top: 1px solid black;
+	text-align: center;
+	color: black;
+}
+footer a 
+{
+	text-decoration: none;
+	color: #000;
+	margin: 10px;
+}
+footer a:hover
+{
+	text-decoration: overline;
+	font-style: italic;
+	color: white;
+}
+footer small
+{
+	color: white;
+	font-style: italic;
+	display: block;
+}
+#wrapper
+{
+	background-color: #90c7e3;
+
+}
+@media only screen and (max-width: 1024px)
+{
+	main 
+	{
+		width: 1000px;
+	}
+}
+
+@media only screen and (max-width: 768px)
+{
+	
+
+}
