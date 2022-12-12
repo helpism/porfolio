@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Blaka+Ink&family=Combo&family=Reem+Kufi+Fun&display=swap');
+body
+{
+	background-color: #E8F2E8;
+	margin: 0;
+}
+header
+{
+	background-color: #000000;
+	font-family: fantasy;
+	color: whitesmoke;
+}
+h1
+{
+	text-align: center;
+	margin: 0;
+}
+nav
+{
+	background-color: black;
+	text-align: center;
+}
+nav a
+{
+	text-decoration: none;
+	margin: 10px;
+
+}
+nav a:link
+{
+	color: white;
+}
+nav a:visited
+{
+	color: white;
+}
+nav a:hover
+{
+	text-decoration: overline;
+	font-style: italic;
+	color: white;
+}
+nav a:active
+{
+	color: #000000;
+}
+nav ul 
+{
+	float: center;
+	background-color: black;
+	margin-right: 10px;
+	margin-left: 10px;
+	padding-left: 8px;
+	list-style-type: none;
+}
+nav li 
+{
+	float: center;
+	display: inline-block
+}
+main 
+{
+	color: whitesmoke;
+	width: 1000px;
+	margin: auto;
+	font-family: combo;
+}
+footer
+{
+	text-align: center;
+}
+footer a 
+{
+	text-decoration: none;
+	color: white;
+	margin: 10px;
+}
+footer a:hover
+{
+	text-decoration: overline;
+	font-style: italic;
+	color: white;
+}
+small
+{
+	color: white;
+	font-style: italic;
+	display: block;
+}
+#wrapper
+{
+	background-color: #90c7e3;
+
+}
+@media only screen and (max-width: 1024px)
+{
+
+}
+
+@media only screen and (max-width: 768px)
+{
+	
+
+}

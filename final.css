@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=BhuTuka+Expanded+One&family=Blaka+Ink&family=News+Cycle&family=Reem+Kufi+Fun&family=Secular+One&display=swap');
+body
+{
+	background-color: #efefef;
+	background-repeat: no-repeat;
+	margin: 0;
+}
+.top-wrap
+{
+	background-color: #efefef;
+	margin-bottom: 0;
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+}
+header
+{
+	text-align: center;
+	font-family: 'Bebas Neue', fantasy;
+	color: #434343;
+	margin: 0;
+}
+header img
+{
+	margin-left: auto;
+	margin-right: auto;
+}
+h1
+{
+	text-align: center;
+	margin: 0;
+}
+nav
+{
+	text-align: center;
+	font-family: 'BhuTuka Expanded One', cursive;
+	font-weight: 700;
+}
+.top-nav
+{
+	padding-top: 40px;
+	text-align: center;
+	margin: 0;
+}
+.nav-2
+{
+	background-color: #94A8B5;
+	text-align: center;
+	font-family: 'BhuTuka Expanded One', cursive;
+	margin-right: 25px;
+	margin-left: 25px;
+	border-radius: 4px;
+}
+
+.col-sm-4
+{
+	margin: 0;
+	padding: 0;
+}
+nav a
+{
+	text-decoration: none;
+	margin: 10px;
+
+}
+nav a:link 
+{
+	color: whitesmoke;
+	transition: 0.3s;
+}
+.top-nav a:link
+{
+	color: #434343;
+}
+nav a:visited
+{
+	color: #434343;
+}
+.nav-2 a:visited
+{
+	color: whitesmoke;
+}
+nav a:hover
+{
+	font-style: italic;
+	color: #434343;
+}
+.top-nav a:hover
+{
+	text-decoration: none;
+	transition: 0.3s;
+	border-top: 2px solid #eabd70;
+
+	border-top-left-radius: 3px;
+	left: 0;
+	font-style: italic;
+	color: #EABD70;
+}
+.nav-2 a:hover
+{
+	text-decoration: overline;
+	color: #434343;
+
+}
+nav a:active
+{
+	color: #000000;
+}
+nav ul 
+{
+	float: center;
+	background-color: #94A8B5;
+	margin-right: 20px;
+	margin-left: 20px;
+	margin-bottom: 0;
+	padding-left: 20px;
+	list-style-type: none;
+}
+.top-nav ul 
+{
+	float: center;
+	background-color: #efefef;
+	margin-right: 40px;
+	margin-left: 40px;
+	margin-bottom: 0px;
+	padding-left: 15px;
+	padding-bottom: 14px;
+	list-style-type: none;
+}
+nav li 
+{
+	float: center;
+	display: inline-block
+}
+main 
+{
+	background-color: #efefef;
+	color: #434343;
+	width: 1200px;
+	margin: auto;
+	margin-top: 20px;
+	font-family: unset;
+}
+main img 
+{
+	width: 100%;
+	height: auto;
+	text-align: center;
+	border-radius: 6px;
+}
+main h2
+{
+	border-radius: 4px;
+	width: 40%;
+	padding-left: 10px;
+}
+main h3
+{
+	box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+	margin: 10px;
+	width: 140px;
+	border-radius: 4px;
+	padding: 5px;
+}
+.web-p
+{
+	text-align: center;
+	padding: 10px;
+	border-radius: 5px;
+	font-weight: 700px;
+	font-style: italic;
+	box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+#resume
+{
+	margin-top: 0;
+	margin-bottom: 0;
+	padding: 0px;
+	display: flex;
+	justify-content: center;
+	height: 80vh;
+	align-items: center;
+	width: 1250px;
+	color: #efefef;
+}
+#resume .container-fluid
+{
+	display: flex;
+}
+#resume img
+{
+	width: 400px;
+	height: 500px;
+	border-radius: 2px;
+}
+#resume .card 
+{
+	height: 500px;
+	margin: 5px;
+	box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+	overflow: hidden;
+}
+#resume .card:hover
+{
+	cursor: pointer;
+}
+#resume .card:hover .intro
+{
+	height: 500px;
+}
+#resume .card:hover span
+{
+	visibility: visible;
+}
+#resume .card:hover img
+{
+	tranform: scale(1.1) rotate(-3deg);
+}
+#resume .intro
+{
+	width: 400px;
+	height: 50px;
+	padding: 4px;
+	box-sizing: border-box;
+	position: absolute;
+	bottom: 0;
+	background-color: rgba(0, 0, 0, 0.5);
+	transition: .5s;
+}
+#resume span
+{
+	visibility: hidden;
+	font-weight: 50%;
+}
+.pre-footer
+{
+	margin-bottom: 0;
+}
+footer
+{
+	text-align: center;
+	background-color: #434345;
+	color: #efefef;
+}
+footer a 
+{
+	text-decoration: none;
+	color: whitesmoke;
+	margin-top: 10px;
+}
+footer a:hover
+{
+	text-decoration: overline;
+	font-style: italic;
+	color: whitesmoke;
+}
+small
+{
+	color: whitesmoke;
+	font-style: italic;
+	display: block;
+}
+.mobile{
+	display:none;
+}
+
+#wrapper
+{
+	background-color: #90c7e3;
+
+}
+@media only screen and (max-width: 1024px)
+{
+	main 
+	{
+		max-width: 100%;
+	}
+	.#resume
+	{
+		max-width: 100%;
+		margin: 450px auto 450px auto;
+	}
+
+}
+
+@media only screen and (max-width: 768px)
+{
+	main 
+	{
+		max-width: 100%;
+	}
+	#resume
+	{
+		max-width: 100%;
+		margin: 450px auto 450px auto;
+	}
+	.desktop{
+		display:none;
+	}
+	.mobile{
+		display: block;
+		touch-action: manipulation;
+	}
+
+}
